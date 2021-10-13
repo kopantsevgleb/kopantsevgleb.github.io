@@ -1,0 +1,78 @@
+body {
+			background-color: 
+		}
+		#container {
+			width: 1100px;
+			margin: 0 auto;
+			background-color: white;
+		}
+header {
+	background-color: #BDF8E3;
+	padding: 0px;
+}
+header h2 {
+	margin: 0;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #CBFFF6;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 40px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #C97EEE;
+}
+footer {
+	background-color: #E2E6E6;
+	padding: 40px;
+}
+footer p{
+	margin: 0;
+}
+.two-column {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	padding: 40px;
+	background-color: #C7BEFA;
+}
+#basketball {
+	background-color: #EED66E;
+}
+.two-column div {
+	background-color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.button-wrapper {
+	background-color: #BDF8E3;
+	padding: 20px;
+	text-align: center;
+}
+.three-columns {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	padding: 40px;
+	background-color: #B7DDDB;
+}
+.three-columns div {
+	background-color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+}
